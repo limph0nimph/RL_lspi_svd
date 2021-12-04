@@ -10,18 +10,18 @@ K=number of fetures
 weights_list=np.zeros(n_actions,K)
 
 
-For each action:
-  2) Crate matrix A, A_next for each action
+2) For each action:
+  2.1) Crate matrix A, A_next for each action
    
-  4) Calculte low rank approximation
+  2.2) Calculte low rank approximation
 
-  6) Calculate by Woodbery Identity invers e for calculation of weights
-  7) 
+  2.3) Calculate by Woodbery Identity invers e for calculation of weights
+ 
   weights_list[action,:]=weight
 
-8) Update for agent our weight 
-9) 
+3) Update for agent our weight 
+ 
 agent.set_weights(weights_list)
 
-10) Sample according to agent policy
+4) Sample according to agent policy
 
