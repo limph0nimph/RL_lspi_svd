@@ -1,0 +1,1 @@
+1)Make weights and colour map for each action our car.
