@@ -16,6 +16,7 @@ weights_list=np.zeros(n_actions,K)
   2.2) Calculte low rank approximation
 
   2.3) Calculate by Woodbery Identity invers e for calculation of weights
+   
  
   weights_list[action,:]=weight
 
@@ -25,3 +26,4 @@ agent.set_weights(weights_list)
 
 4) Sample according to agent policy
 
+Back to step1
