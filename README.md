@@ -26,4 +26,7 @@ agent.set_weights(weights_list)
 
 4) Sample according to agent policy
 
+We should use flattened env.rander('rdg_array') saved as np.array as observation
+
+Policy is agent.predict(obs)
 Back to step1
