@@ -17,8 +17,8 @@ weights_list=np.zeros(n_actions,K)
 
   2.3) Calculate by Woodbery Identity invers e for calculation of weights
   
-  Vlad
-
+  Lera
+  
   weights_list[action,:]=weight
 
 3) Update for agent our weight 
@@ -31,3 +31,5 @@ We should use flattened env.rander('rdg_array') saved as np.array as observation
 
 Policy is agent.predict(obs)
 Back to step1
+
+Experiments with Bellman error -> Vlad
