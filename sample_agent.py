@@ -1,4 +1,4 @@
-def Sample_agent_policy(env, agent, is_agent = False):
+def Sample_agent_policy(env, agent = None, is_agent = False):
 
   actions = {'left': 0, 'stop': 1, 'right': 2}
   def policy(obs, t):
